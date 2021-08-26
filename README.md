@@ -6,5 +6,3 @@
 To Do List를 만들어 나의 일정을 관리하고, Challenge를 생성해 친구와 공유할 수 있는 웹사이트
 
 ## Environment
-
-feature/Ho
