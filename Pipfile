@@ -9,6 +9,9 @@ django-dotenv = "*"
 djangorestframework = "*"
 psycopg2-binary = "*"
 django-debug-toolbar = "*"
+requests = "*"
+pillow = "*"
+pyjwt = "*"
 
 [dev-packages]
 black = "*"
