@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get("DJANGO_SECRET")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = bool(os.environ.get("DEBUG"))
 
-ALLOWED_HOSTS = ["https://doitdoit-backend.herokuapp.com/", "127.0.0.1"]
+ALLOWED_HOSTS = ["doitdoit-backend.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
