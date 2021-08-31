@@ -4,7 +4,6 @@ import jwt
 from rest_framework import status
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework.views import APIView
 from django.core.files.base import ContentFile
 from django.conf import settings
 from django.shortcuts import redirect
@@ -19,10 +18,6 @@ def kakao_login(request):
     return redirect(
         f"https://kauth.kakao.com/oauth/authorize?client_id={client_id}&redirect_uri={redirect_uri}&response_type=code"
     )
-
-
-class KakaoException(Exception):
-    pass
 
 
 @api_view(["GET"])
